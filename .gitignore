@@ -4,3 +4,4 @@ data/pgdata
 .DS_Store
 src/composer/*
 docker-composer.yml
+bin
