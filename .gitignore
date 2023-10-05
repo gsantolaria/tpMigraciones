@@ -3,4 +3,4 @@ data/pgdata
 .vscode
 .DS_Store
 src/composer/*
-*.yml
+docker-composer.yml
