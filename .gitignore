@@ -3,3 +3,5 @@ data/pgdata
 .vscode
 .DS_Store
 src/composer/*
+docker-composer.yml
+bin
