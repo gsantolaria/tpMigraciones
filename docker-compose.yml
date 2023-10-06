@@ -22,7 +22,7 @@ services:
         DDBB_NAME: ${POSTGRES_DB}
         DDBB_HOST: db
         DDBB_PASSWORD: ${POSTGRES_PASSWORD}
-        PHP_USER_ID: 1001
+        PHP_USER_ID: 501
     depends_on:
       - db
   adminer:
