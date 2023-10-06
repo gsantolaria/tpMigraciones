@@ -7,7 +7,12 @@ class Usuario extends \app\models\Usuario
 {
     public function fields()
     {
-        return['id','nombre','apellido','edad'];
+        return['id','nombre','apellido'];
+    }
+
+    public function extrafields()
+    {
+        return['edad', 'permisos', 'usuarioPermisos'];
     }
     
 }

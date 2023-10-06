@@ -30,6 +30,7 @@ class Permiso extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['descripcion'], 'required'],
             [['is_staff'], 'boolean'],
             [['descripcion'], 'string', 'max' => 100],
         ];
